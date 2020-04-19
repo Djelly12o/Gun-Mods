@@ -1,3 +1,4 @@
+-- Reused code from my USAF gun mod thing.
 local LP = game:GetService 'Players'.LocalPlayer
 
 function Notify(args)
