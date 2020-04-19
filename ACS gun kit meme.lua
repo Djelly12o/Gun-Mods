@@ -11,8 +11,8 @@ else
     Notify(LP.Character:FindFirstChildWhichIsA 'Tool'.Name .. " has been modified!")
     local Stat = require(LP.Character:FindFirstChildWhichIsA 'Tool'["ACS_Modulo"].Variaveis.Settings)
 	Stat.Name = "God Gun"
-    Stat.BulletType = "Holy Angelic Bullets"
-    Stat.FireModes = {ChangeFiremode = true, Semi = true, Burst = true, Auto = true, Explosive = true}
+        Stat.BulletType = "Holy Angelic Bullets"
+        Stat.FireModes = {ChangeFiremode = true, Semi = true, Burst = true, Auto = true, Explosive = true}
 	Stat.ExplosiveHit = true
 	Stat.ExPressure = 9e9
 	Stat.ExpRadius = math.huge
