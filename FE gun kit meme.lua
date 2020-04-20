@@ -1,4 +1,7 @@
--- Reused code from my USAF gun mod thing.
+--[[
+     epic
+     https://www.roblox.com/games/3624880764
+]]
 local LP = game:GetService 'Players'.LocalPlayer
 
 function Notify(args)
@@ -10,9 +13,10 @@ if not LP.Character:FindFirstChildWhichIsA 'Tool' or not LP.Character[LP.Charact
 else
     Notify(LP.Character:FindFirstChildWhichIsA 'Tool'.Name .. " has been modified!")
     local Stat = require(LP.Character:FindFirstChildWhichIsA 'Tool'.Setting)
-    Stat.ShotgunEnabled = true
-    Stat.BaseDamage = 9e9
-    Stat.FireRate = 0
+	Stat.Auto = true
+        Stat.ShotgunEnabled = true
+        Stat.BaseDamage = 9e9
+        Stat.FireRate = 0
 	Stat.ReloadTime = 0
 	Stat.AmmoPerMag = math.huge
 	Stat.Range = 9e9
