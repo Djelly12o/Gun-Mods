@@ -1,6 +1,7 @@
 --[[
      Reused code from USAF gun mod.
      https://www.roblox.com/games/4633490029
+     https://www.roblox.com/games/4475902409
 ]]
 
 local LP = game:GetService 'Players'.LocalPlayer
