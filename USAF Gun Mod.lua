@@ -37,7 +37,7 @@ if not LP.Character:FindFirstChildWhichIsA 'Tool' or not LP.Character[LP.Charact
     return Notify("You know you need to hold a gun right?")
 else
     Notify(LP.Character:FindFirstChildWhichIsA 'Tool'.Name .. " has been modified!")
-    local Stat = require(LP.Character:FindFirstChildWhichIsA 'Tool'.Configuration)
+    local Stat = require(LP.Character:FindFirstChildWhichIsA 'Tool':FindFirstChildWhichIsA 'ModuleScript')
     Stat.Type = "GOD GUN" -- Aesthetic
     Stat.BulletType = "Holy Angelic Bullets" -- Aesthetic
     Stat.ClipSize = math.huge
