@@ -1,4 +1,8 @@
--- Secure gun kit? Never heard of one LOL!
+--[[
+     Reused code from USAF gun mod.
+     https://www.roblox.com/games/4633490029
+]]
+
 local LP = game:GetService 'Players'.LocalPlayer
 
 function Notify(args)
