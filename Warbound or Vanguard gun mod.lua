@@ -14,7 +14,7 @@ if not LP.Character:FindFirstChildWhichIsA 'Tool' or not LP.Character[LP.Charact
 else
     Notify(LP.Character:FindFirstChildWhichIsA 'Tool'.Name .. " has been modified!")
     local Stat = require(LP.Character:FindFirstChildWhichIsA 'Tool'.ConfigMods:FindFirstChild("CConfig"))
-    Stat.BaseDamage = 9e9 
+        Stat.BaseDamage = 9e9 
 	Stat.LimbDamage = 9e9
 	Stat.ArmorDamage = 9e9 
 	Stat.HeadDamage = 9e9 
